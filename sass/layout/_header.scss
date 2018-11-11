@@ -18,6 +18,9 @@
     @include respond(tab-land2) { // width <= 1240
         height       : 100vh;    
     }
+    @include respond(phone) { // width <= 600
+        min-height: 100%;
+    }
 
     .childern{
         height: 37rem;
