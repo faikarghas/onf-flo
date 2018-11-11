@@ -50,9 +50,6 @@
     @include respond(big-desktop){
         margin-top: 8% !important;
     }
-    @include respond(tab-land1366) { // width <= 1366(landscape)
-        // margin-top: 15%;
-    }
     @include respond(tab-land) { // width <= 1024
         margin-top: 30%;
     }
@@ -70,19 +67,28 @@
         text-align: center;
     }
     @include respond(phone320) { // width <= 320
-        margin-top: 5%;
-        padding     : 0;
+        margin-top          : 5%;
+        padding-right       : 0;
+        padding-left        : 0;
     }
-    @include respond(phone270) { // width <= 320
-        padding     : 0;
+
+    .container{
+        @include respond(phone320) { // width <= 320
+            padding-right       : 0;
+            padding-left        : 0;
+        }
     }
-    
+
     &--1{
         display: flex;
         justify-content: flex-end;
        
         @include respond(phone){
             justify-content: center;
+        }
+        @include respond(phone320) { // width <= 320
+            padding-right       : 0;
+            padding-left        : 0;
         }
         img{
             width       : 30rem;
@@ -91,9 +97,9 @@
             @include respond(phone) { // width <= 600?
                 transform   : none !important;
                 width       : 27rem;
-                height      : 27rem;
+                height      : 32rem;
             }
-            @include respond(phone270) { // width <= 270?
+            @include respond(phone320) { // width <= 320?
                 height      : 27rem;
             }
         }
@@ -102,6 +108,10 @@
         @include respond(phone) { // width <= 600?
             transform: none !important;
             text-align: center;
+        }
+        @include respond(phone320) { // width <= 320
+            padding-right       : 0;
+            padding-left        : 0;
         }
         .flologo{
             img{
