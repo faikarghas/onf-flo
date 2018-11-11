@@ -71,6 +71,7 @@
     }
     @include respond(phone320) { // width <= 320
         margin-top: 5%;
+        padding     : 0;
     }
     @include respond(phone270) { // width <= 320
         padding     : 0;
