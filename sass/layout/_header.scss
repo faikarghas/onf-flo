@@ -92,8 +92,6 @@
                 height      : 35rem;
             }
             @include respond(phone270) { // width <= 270?
-                transform   : none !important;
-                width       : 27rem;
                 height      : 27rem;
             }
         }
