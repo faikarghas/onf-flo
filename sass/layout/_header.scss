@@ -41,29 +41,16 @@
   
 
 .section_headchild{
-    padding     : 5rem;
-    margin-top  : 8rem;
-    font-family : 'Nunito', sans-serif;
+        font-family : 'Nunito', sans-serif;
+        height: 100%;
+        display: flex;
+        align-items: center;
    
-    .parallax-inner {
-        @include respond(phone){
-            transform: none !important;
-        }
-    }
-    @include respond(big-desktop){
-        margin-top: 8% !important;
-    }
-    @include respond(tab-land) { // width <= 1024
-        margin-top: 30%;
-    }
-    @include respond(tab-land2) { // width <= 1024(landscape)
-        margin-top: 10%;
-    }
+
     @include respond(tab-port2) { // width <= 768?
         width   : 100%;
     }
     @include respond(phone){
-        margin-top          : 5%;
         justify-content     : center;
         padding-right       : 0;
         padding-left        : 0;
@@ -72,9 +59,14 @@
         text-align: center;
     }
     @include respond(phone320) { // width <= 320
-        margin-top          : 5%;
         padding-right       : 0;
         padding-left        : 0;
+    }
+
+    .parallax-inner {
+        @include respond(phone){
+            transform: none !important;
+        }
     }
 
     .container{
