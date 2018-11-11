@@ -142,7 +142,11 @@
         }
         .download{
             margin-top      : 5rem;
-            margin-bottom   : 2rem; 
+            margin-bottom   : 2rem;
+
+            @include respond(phone) { // width <= 600
+                margin-top      : 2rem;
+            } 
             h3{
                 color       : white;
                 font-weight : 700; 
