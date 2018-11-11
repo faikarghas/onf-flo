@@ -112,6 +112,9 @@
             @include respond(phone320) { // width <= 320
                 width   : 26rem;
             }
+            @include respond(phone270) { // width <= 270?
+                top         : -33px; 
+            }
         }
     }
     &--img{
