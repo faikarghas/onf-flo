@@ -131,6 +131,7 @@ class Register extends React.Component{
                             </div>
                         </div>
                         <div className="section_topup--card hidden-up" >
+                        <OwlCarousel options={options}>
                             <div className="section_topup--card-c1 section_topup--card-slider" >
                                     <div className="card">
                                     <div className="card-body">
@@ -195,8 +196,8 @@ class Register extends React.Component{
                                     </div>
                                     </div>
                                 </div>
+                        </OwlCarousel>
                         </div>
-                        
                     </div>
                 </div>
                 <div className="section_topup2">
