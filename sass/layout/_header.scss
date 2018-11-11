@@ -41,9 +41,7 @@
     padding     : 5rem;
     margin-top  : 8rem;
     font-family : 'Nunito', sans-serif;
-    @include respond(phone270) { // width <= 320
-        padding     : 0;
-    }
+   
     .parallax-inner {
         @include respond(phone){
             transform: none !important;
@@ -73,6 +71,9 @@
     }
     @include respond(phone320) { // width <= 320
         margin-top: 5%;
+    }
+    @include respond(phone270) { // width <= 320
+        padding     : 0;
     }
     
     &--1{
