@@ -14,10 +14,13 @@ import prima from '../static/prima.png'
 
 import OwlCarousel from 'react-owl-carousel2';
 import '../node_modules/react-owl-carousel2/lib/styles.css'
-import { ParallaxProvider,Parallax } from 'react-scroll-parallax';
+import Slider from "react-slick";
+
+import '../node_modules/slick-carousel/slick/slick.css'
+import '../node_modules/slick-carousel/slick/slick-theme.css'
+
 
 import $ from 'jquery';
-
 
 const options = {
     items: 1,
@@ -28,7 +31,14 @@ const options = {
     center: true,
     navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
 };
-
+var settings = {
+    // dots: true,
+    speed: 500,
+    centerMode: true,
+    centerPadding: '40px',
+    infinite: false,
+    arrows: true
+  };
 class Register extends React.Component{
     state = {
         trans  : 0,
@@ -39,15 +49,15 @@ class Register extends React.Component{
     handleScroll = ()=> {
 
         $(window).scroll(function (event) {
-                var el = $('.testpar');
-                var scroll = $(document).scrollTop();
-                var valueScroll = scroll * 2 /14
-                el.css({
-                    'position':'absolute',
-                    'top':'144%',
-                    'left':'50%',
-                    'transform':`translate(-50%,${-valueScroll}px)`
-                });
+            var el = $('.testpar');
+            var scroll = $(document).scrollTop();
+            var valueScroll = scroll * 2 /14
+            el.css({
+                'position':'absolute',
+                'top':'144%',
+                'left':'50%',
+                'transform':`translate(-50%,${-valueScroll}px)`
+            });
         });
 
     }
@@ -131,7 +141,9 @@ class Register extends React.Component{
                             </div>
                         </div>
                         <div className="section_topup--card hidden-up" >
-                        <OwlCarousel options={options}>
+                        {/* <OwlCarousel options={options}> */}
+                        <Slider {...settings}>
+                        
                             <div className="section_topup--card-c1 section_topup--card-slider" >
                                     <div className="card">
                                     <div className="card-body">
@@ -196,7 +208,8 @@ class Register extends React.Component{
                                     </div>
                                     </div>
                                 </div>
-                        </OwlCarousel>
+                                </Slider>
+                        {/* </OwlCarousel> */}
                         </div>
                     </div>
                 </div>

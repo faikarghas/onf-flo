@@ -84,7 +84,7 @@
             }
 
         &-slider{
-            display         : flex;
+            display         : flex !important;
             justify-content : center;
         }
 
@@ -244,4 +244,8 @@
 
 .owl-carousel {
     height: 100%;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: #000000 !important;
 }
