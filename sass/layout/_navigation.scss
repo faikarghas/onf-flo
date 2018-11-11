@@ -1,0 +1,110 @@
+// .navigation{
+//     &__list{
+//         & a{
+//             font-family     : $navbar-font2;
+//             font-size       : 1.5rem;
+//             font-weight     : 700;
+//             padding         : 0!important;
+//             margin-top      : 1.5rem;
+//             margin-right    : 7rem;
+//             margin-left     : 7rem;
+//             color           : white;
+//             span{
+//                 color           : white;
+//                 cursor: pointer;
+//             }
+//             &:hover{
+//                 color       : rgb(49, 49, 49);
+//             }
+
+//             @include respond(phone) { // width <= 600
+//                 margin-left: 1rem !important;
+//             }
+//         }
+
+//         &-home{
+//             font-size   : 3rem !important;
+//         }
+//     }
+
+// }
+
+.section-navbar{
+    padding: .5rem 12rem !important;
+
+    @include respond(big-desktop){
+        padding: .5rem 4rem !important;
+    }
+
+    @include respond(phone){
+        padding: .5rem 4rem !important;
+    }
+        a{
+            img{
+                width       : 3rem;
+                height      : 3rem;
+                object-fit  : contain;
+                @include respond(phone){
+                    width       : 5rem;
+                    height      : 5rem;
+                }
+            }
+        }
+    &--link{
+        ul{
+            li{
+                span{
+                    color           : white;
+                    // font-family     : 'Nunito', sans-serif;
+                    font-weight     : 600;  
+                    font-size       : 1.2rem;  
+                    cursor          : pointer;
+                    margin-right    : .7em; 
+                }
+            }
+        }
+    }
+}
+
+.navbar-collapse{
+    margin-top  : 2rem;
+}
+.navbar-toggler{
+    line-height : 2 !important;
+}
+
+
+.navigation{
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    height          : 3rem;
+    width           : 4rem;
+    position        : relative;
+
+    &__icon{
+        &--1{
+            position    : absolute;
+            height      : 2px;
+            width       : 3rem;
+            background  : white;
+            top         :20%;
+        }
+        &--2{
+            position    : absolute;
+            height      : 2px;
+            width: 3rem;
+            background: white;
+            top:50%;
+        }
+        &--3{
+            position: absolute;
+            height: 2px;
+            width: 3rem;
+            background: white;
+            top:80%;
+        }
+    }
+}
+
+// padding: .5rem 4rem!important;

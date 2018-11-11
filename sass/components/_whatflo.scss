@@ -1,0 +1,150 @@
+.section_whatflo{
+    min-height              : 100%;
+    background-color    : $purple-light; 
+    color               : white; 
+    font-family         : 'Nunito', sans-serif;
+    font-weight         : 800;    
+    position            : relative;
+    padding-bottom      : 6rem;  
+    padding-top         : 5rem; 
+    padding-left        : 25rem;
+    padding-right       : 25rem;
+    font-size           : 1.2rem; 
+    @include respond(tab-land) { // width <= 1240?
+        padding-left        : 20rem;
+        padding-right       : 20rem;
+    }
+    @include respond(tab-port2) { // width <= 768?
+        padding-left        : 10rem;
+        padding-right       : 10rem;
+    }
+    @include respond(phone) { // width <= 768?
+        padding-left        : 4rem;
+        padding-right       : 4rem;
+    }
+    @include respond(phone375) { // width <= 375?
+        padding-top         : 4rem; 
+    }
+    @include respond(phone320) { // width <= 320
+        // height  :42rem;
+    }
+    
+    img{
+        width   : 5rem;
+        height  : 5rem;
+    }
+
+    &-abs{
+        position    : absolute;
+        top         : 1rem;
+        right       : 0;  
+        img{
+            width: 25rem;
+            height: 10rem;
+        }
+    }
+    &-img{
+        padding-left        : 1.5rem; 
+        margin-bottom       : 2rem;
+        @include respond(phone) { // width <= 768?
+            padding-left        : 2.5rem; 
+        }
+    }
+    &-info{
+        .unduh{
+            margin-top       : 2rem; 
+        }
+        h6{
+            font-family         : 'Nunito', sans-serif;
+            font-weight         : 800;  
+            margin-bottom       : 2rem; 
+        }
+        p{
+            margin-bottom   : 0;
+            font-weight     : 600; 
+        }
+        ul{
+            li{
+                display: inline-block;
+                list-style: none;
+            }
+            .googleplay{
+                img{
+                    margin-right    : 1rem;
+                    width           : 9rem;
+                    height          : 3rem;
+                    @include respond(tab-land) { // width <= 1240?
+                        width           : 8rem;
+                    }
+                    @include respond(phone) { // width <= 600?
+                        width           : 5rem;
+                        height          : 2rem;
+                        object-fit      : contain; 
+                    }
+                    @include respond(phone375) { // width <= 375?
+                        margin-right    : .1rem;
+                    }
+                }
+            }
+            .appstore{
+                img{
+                    margin-right    : 1rem;
+                    width           : 9rem;
+                    height          : 3rem;
+                    @include respond(tab-land) { // width <= 1240?
+                        width           : 10rem;
+                    }
+                    @include respond(phone) { // width <= 768?
+                        width           : 5rem;
+                        height          : 2rem;
+                        object-fit      : contain; 
+                    }
+                }
+            }
+        }
+    }
+    &-what{
+        @include respond(phone) { // width <= 768?
+            padding : 0 !important;
+        }
+        h6{
+            font-family         : 'Nunito', sans-serif;
+            font-weight         : 800;  
+        }
+        p{
+            font-family         : 'Nunito', sans-serif;
+            font-weight         : 600;  
+            font-size           : 1rem; 
+
+        }
+    }
+    &-contact{
+        h6{
+            font-family         : 'Nunito', sans-serif;
+            font-weight         : 800;
+            margin-bottom       : 1rem;   
+        }
+        ul{
+            li{
+                list-style: none;
+                margin-bottom: 1rem;
+                img{
+                    width   : 2rem;
+                    height  : 2rem;
+                }
+                .btn{
+                    width           : 5rem;
+                    height          : 2rem;
+                    background      : $purple-dark;
+                    border-radius   : 5px;
+                    color           :#ffffff;
+                    display         : inline-block;
+                    font            : normal 700 1.1rem/1 "Open Sans", sans-serif;
+                    text-align      : center;
+                    cursor          : pointer;
+                    
+                }
+            }
+        }
+    }
+}

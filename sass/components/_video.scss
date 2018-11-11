@@ -1,0 +1,89 @@
+.section_video{
+    width                   : 100%;
+    min-height              : 67rem;
+    position                : relative;
+    padding                 : 8rem; 
+    .parallax-inner {
+        @include respond(phone){
+            transform: none !important;
+        }
+    }
+    
+    @include respond(phone) { // width <= 600?
+        min-height        : 55rem;
+    }
+ 
+    &--title{
+        margin-bottom   : 2rem;  
+        text-align      : center;
+        h1{
+            font-family : 'Nunito', sans-serif;
+            font-weight : 800; 
+            color   : $purple-light;
+        }
+    }
+    &--det{
+        display         : flex;
+        justify-content : center;
+        position        : absolute;
+        top             : 40rem;
+        left            : 50%;
+        @include respond(phone) { // width >= 7680?
+            transform: none !important;
+            position: static;
+        }
+
+        h1{
+            color   : $purple-light;
+        }
+        .card-body{
+            padding : 4rem;
+            @include respond(phone320) { // width <= 320
+                padding : 2rem;
+            }
+            .col-5{
+                img{
+                    width   : 4rem;
+                    height  : 4rem;
+                    object-fit: contain;
+                }
+            }
+            &--logo{
+                display: flex;
+                justify-content: center;
+            }
+            &--desc{
+                display: flex;
+                align-items: center;
+                h5{
+                    font-family : 'Nunito', sans-serif;
+                    font-weight : 800;
+                    line-height : 2rem;
+                }
+            }
+        }
+    }
+    .card{
+        -webkit-box-shadow  : 7px 9px 30px -10px rgba(0,0,0,0.75);
+        -moz-box-shadow     : 7px 9px 30px -10px rgba(0,0,0,0.75);
+        box-shadow          : 7px 9px 30px -10px rgba(0,0,0,0.75);
+        width               : 70rem;
+        .card-header-n1{
+            
+            .video-react{
+                height        : 30rem !important;
+
+                @include respond(phone) { // width <= 600?
+                    height        : 20rem !important;
+                }
+            }
+            
+        }
+    }
+}
+
+
+.video-react .video-react-big-play-button {
+    background-color: transparent !important;
+    display: none !important;
+}

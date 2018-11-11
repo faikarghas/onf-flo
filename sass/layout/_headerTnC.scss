@@ -1,0 +1,41 @@
+.box-header-tnc{
+    background-size         : cover;
+    background-repeat       : no-repeat;
+    height                  : 140rem;    
+    width                   : 100%;
+    padding                 : 2rem 3rem;
+    z-index                 : 3;
+    position                : relative; 
+    overflow                : hidden;
+    
+    .childern{
+        height: 37rem;
+        @include respond(phone) { // width <= 600
+            height: 95rem;
+        }
+        @include respond(phone375) { // width <= 600
+            height: 85rem;    
+        }
+        @include respond(phone320) { // width <= 600
+            height: 70rem;    
+        }
+        
+        
+    }
+    
+}
+
+.section_headchild-tnc{
+    margin-top : 15rem; 
+    &--title{
+        height      : 70rem;
+        text-align  : center;
+        padding     : 5rem; 
+        h1{
+            color       : white;
+            font-family : 'Nunito', sans-serif;
+            font-weight : 700; 
+        }
+    }
+    
+}

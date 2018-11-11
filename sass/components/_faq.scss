@@ -1,0 +1,108 @@
+.section_faq{
+    min-height              : 100%;
+    background-color    : white; 
+    font-family         : 'Nunito', sans-serif;
+    font-weight         : 800;    
+    font-size           : 1.5rem;
+    position            : relative;
+    padding-bottom      : 5rem;  
+    padding-top         : 5rem; 
+    padding-left        : 25rem;
+    padding-right       : 25rem;
+
+    @include respond(tab-land) { // width <= 1240?
+        padding-left        : 20rem;
+        padding-right       : 20rem;
+    }
+    @include respond(tab-port2) { // width <= 768?
+        padding-left        : 10rem;
+        padding-right       : 10rem;
+    }
+    @include respond(phone) { // width <= 600?
+        padding-left        : 4rem;
+        padding-right       : 4rem;
+    }
+    @include respond(phone320) { // width <= 320
+        // height: 80rem;
+    }
+
+    &--1{
+        border-right    : 1px solid black;
+        padding-left    : 1.5rem !important;
+        padding-right   : 1.5rem !important;
+        @include respond(phone) { // width <= 600?
+            border-right: none;
+        }
+        h4{
+            font-family         : 'Nunito', sans-serif;
+            font-weight         : 800;   
+            color               : rgb(61, 61, 61);
+            font-size           : 2rem; 
+        }
+        h6{
+            font-family         : 'Nunito', sans-serif;
+            font-weight         : 800;   
+            color               : rgb(61, 61, 61);
+            font-size           : 1.3rem;
+            @include respond(phone) { // width <= 320
+                font-size           : 2rem;
+            }
+        }
+        p{
+            font-size           : 1.3rem;
+            margin              : 0;
+            font-weight         : 400; 
+            @include respond(phone) { // width <= 320
+                font-size           : 2rem;
+            }
+
+        }
+        &-text{
+            width: 30rem;
+            @include respond(phone) { // width <= 600?
+                min-width: 100%;
+                // width: 27rem;
+            }
+            @include respond(phone375) { // width <= 375?
+                // width: 23rem;
+            }
+            @include respond(phone320) { // width <= 320
+                // width: 18rem;
+            }
+        }
+    }
+    &--2{
+        padding-left    : 8rem !important;
+        padding-right   : 2.5rem !important;
+        @include respond(phone) { // width <= 600?
+            padding-left        : 4rem !important;
+        }
+        h6{
+            font-family         : 'Nunito', sans-serif;
+            font-weight         : 800;   
+            color               : rgb(61, 61, 61);
+            font-size           : 1.3rem;
+        }
+        p{
+            font-size           : 1.3rem;
+            margin              : 0;
+            font-weight         : 400; 
+            @include respond(phone320) { // width <= 320
+                font-size           : 1.1rem !important;
+            }
+        }
+        &-text{
+            width: 30rem;
+            @include respond(phone) { // width <= 600?
+                min-width: 100%;
+                // width: 27rem;
+            }
+            @include respond(phone375) { // width <= 375?
+                // width: 23rem;
+            }
+            @include respond(phone320) { // width <= 320
+                // width: 18rem;
+            }
+        }
+    }
+}

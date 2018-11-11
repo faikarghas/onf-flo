@@ -1,0 +1,22 @@
+.footer{
+    @include absCenterBottom;
+    font-family : $footer-font;
+    font-weight : 500;
+    color       :rgba(143, 141, 125, 0.712);
+    
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            padding: 0 .9rem;
+            .fa-circle{
+                cursor: pointer;
+            }
+        }
+    }
+
+    h4{
+        font-size   :  1.2rem;
+    }
+    
+}
