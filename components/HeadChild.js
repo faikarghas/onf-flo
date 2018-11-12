@@ -30,10 +30,10 @@ class HeadChild extends React.Component {
             <div className="section_headchild">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-6 col-lg-6 section_headchild--1">
+                        <div className="col-12 col-sm-6 col-md-6 col-lg-6 section_headchild--1">
                             <img src={headimg} style={{WebkitTransform:`translate(0,${-trans}px)`,msTransform:`translate(0,${-trans}px)`,transform:`translate(0,${-trans}px)`}} />
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6 section_headchild--2" style={{WebkitTransform:`translate(0,${-trans}px)`,msTransform:`translate(0,${-trans}px)`,transform:`translate(0,${-trans}px)`}}>
+                        <div className="col-12 col-sm-6 col-md-6 col-lg-6 section_headchild--2" style={{WebkitTransform:`translate(0,${-trans}px)`,msTransform:`translate(0,${-trans}px)`,transform:`translate(0,${-trans}px)`}}>
                             <div className="flologo">
                                 <img src={flopur} />
                             </div>
