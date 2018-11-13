@@ -30,7 +30,7 @@ class Index extends Component{
                     <HeadChild />
                 </HeaderLayout>
                     <Floimage />
-                    <About />
+                    {/* <About /> */}
                     <Video />
                     <div style={{transformOrigin: 'center 0.5px 0px',left: '0px',position: 'absolute',height: '5px'}} className="border-section" id="comp-jg31wn5r"></div>
                     <Register />
