@@ -6,7 +6,7 @@
     padding                 : 8rem;
     overflow                : hidden;
     @include respond(phone) { // width <= 600?
-        min-height              : 109rem;
+        min-height              : 107rem;
     }
 
     &--title{
