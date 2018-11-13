@@ -104,7 +104,7 @@
             }
             @include respond(phone) { // width <= 600?
                 top         : -10px; 
-                width       : 34rem;
+                width       : 50%;
                 height      : 16rem;
                 transform   : none !important;
                 object-fit  : contain;
