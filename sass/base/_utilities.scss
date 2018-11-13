@@ -157,8 +157,8 @@
     width: 70rem;
     margin-left: calc((100% - 70rem) * 0.5);
     @include respond(phone) { // width <= 600
-        width: 47rem;
-        margin-left: calc(50% - 24rem);
+        width: 36rem;
+        margin-left: calc(50% - 18rem);
     }
 }
 
