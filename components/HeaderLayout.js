@@ -3,13 +3,10 @@ import Navigation from './Navigation';
 // css
 import '../sass/main.scss';
 
-const image = {
-    backgroundImage: "url('/static/headerImg.jpg')"
-}
 
 const Layout = (props) => {
     return (
-        <div className="box-header" name="header" style={image} >
+        <div className="box-header" name="header">
             <Head>
                 <title>FLO</title>
             </Head>

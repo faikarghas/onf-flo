@@ -39,7 +39,7 @@ class About extends React.Component {
                     </div>
                     <div className="section_about--desc">
                         <h4>FLO adalah solusi pembayaran jalan tol berbasis teknologi stiker RFID <br/>
-                        yang terkoneksi dengan aplikasi FLO di smartphone Anda
+                        yang terkoneksi dengan aplikasi FLO di smartphone Anda.
                         </h4>
                     </div>
                     <div className="section_about--why">
