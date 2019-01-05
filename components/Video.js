@@ -50,6 +50,11 @@ class Video extends React.Component{
                       <VolumeMenuButton enable />
                     </ControlBar>
                   </Player>
+
+                  {/* <iframe width="100%" height="100%" 
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+                  </iframe>
+                   */}
                   </div>
                   <div className="card-body row">
                     <div className="col-5 card-body--logo">
