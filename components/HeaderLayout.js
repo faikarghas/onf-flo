@@ -13,7 +13,7 @@ const Layout = (props) => {
             <Navigation />
             {props.children}
         </div>
-    )         
+    )
 }
 
 export default Layout;

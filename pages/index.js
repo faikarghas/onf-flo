@@ -21,7 +21,7 @@ import { ParallaxProvider,Parallax } from 'react-scroll-parallax';
 
 
 class Index extends Component{
- 
+
     render(){
         return(
             <ParallaxProvider>

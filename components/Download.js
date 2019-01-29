@@ -13,14 +13,14 @@ class Register extends React.Component{
     }
     handleScroll = ()=> {
         let valueScroll = window.scrollY
-                    
+
         if(valueScroll){
             this.setState({
                 trans : valueScroll*2 / 14,
                 trans2: valueScroll*2 / 18
-            })  
+            })
         }
-        
+
     }
 
 

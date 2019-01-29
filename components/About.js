@@ -18,15 +18,15 @@ class About extends React.Component {
     }
     handleScroll = ()=> {
         let valueScroll = window.scrollY
-                    
+
         if(valueScroll){
             this.setState({
                 trans : valueScroll*2 / 7,
-            })  
+            })
         }
-        
+
     }
-    
+
 
 
     render(){
@@ -35,7 +35,7 @@ class About extends React.Component {
             <div className="section_about" name="about" id="about">
                 <div className="container">
                     <div className="section_about--det">
-                        <img src={floSmallLogo}/>               
+                        <img src={floSmallLogo}/>
                     </div>
                     <div className="section_about--desc">
                         <h4>FLO adalah solusi pembayaran jalan tol berbasis teknologi stiker RFID <br/>
@@ -60,7 +60,7 @@ class About extends React.Component {
                         </div>
                     </div>
                     <div className="section_about--rfid">
-                        <img src={card} style={{WebkitTransform:`translate(0,${-trans}px)`,msTransform:`translate(0,${-trans}px)`,transform:`translate(0,${-trans}px)`}}/>
+                        <img src={card} style={{WebkitTransform:`translate(-50%,${-trans}px)`,msTransform:`translate(-50%,${-trans}px)`,transform:`translate(-50%,${-trans}px)`}}/>
                     </div>
                     <div className="section_about--img">
                         <img src={carlogo} />

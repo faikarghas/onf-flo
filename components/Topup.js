@@ -71,7 +71,7 @@ class Register extends React.Component{
                         <div className="section_topup--title">
                             <h4>NIKMATI KEMUDAHAN TOP UP FLO DARI MANA SAJA</h4>
                         </div>
-                      
+
                         <div className="section_topup--card hidden-down testpar" >
                             <div className="row">
                                 <div className="section_topup--card-c1" >
@@ -109,14 +109,14 @@ class Register extends React.Component{
                                                         <li><img src={bri} /></li>
                                                         <li><img src={bca} /></li>
                                                         <li><img src={btn} /></li>
-                                                    </ul>    
+                                                    </ul>
                                                 </div>
                                                 <div className="col-6">
                                                     <ul>
                                                         <li><img src={prima} /></li>
                                                         <li><img src={atmbersama} /></li>
                                                         <li><img src={link} /></li>
-                                                    </ul>    
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,7 +143,7 @@ class Register extends React.Component{
                         <div className="section_topup--card hidden-up" >
                         {/* <OwlCarousel options={options}> */}
                         <Slider {...settings}>
-                        
+
                             <div className="section_topup--card-c1 section_topup--card-slider" >
                                     <div className="card">
                                     <div className="card-body">
@@ -179,14 +179,14 @@ class Register extends React.Component{
                                                         <li><img src={bri} /></li>
                                                         <li><img src={bca} /></li>
                                                         <li><img src={btn} /></li>
-                                                    </ul>    
+                                                    </ul>
                                                 </div>
                                                 <div className="col-6">
                                                     <ul>
                                                         <li><img src={prima} /></li>
                                                         <li><img src={atmbersama} /></li>
                                                         <li><img src={link} /></li>
-                                                    </ul>    
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -214,7 +214,7 @@ class Register extends React.Component{
                     </div>
                 </div>
                 <div className="section_topup2">
-        
+
                 </div>
             </React.Fragment>
         )

@@ -8,15 +8,16 @@ import '../sass/main.scss';
 
 
 class header2 extends Component{
-    
+
     render(){
         return(
-            <div className="container"> 
+            <div className="container">
                 <nav className="navbar navbar-expand-lg section-navbar">
                     <div className="container">
                         <a className="navbar-brand" href="/">
                             <img src={flowhite} />
                         </a>
+
                         <div className="navigation navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navigation__icon--1">&nbsp;</span>
                             <br/>
@@ -28,7 +29,7 @@ class header2 extends Component{
                         <div className="collapse navbar-collapse section-navbar--link" id="navbarResponsive">
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    
+
                                     <Link activeclass="active" to="about" smooth={"easeOutCubic"} duration={400}  spy={true}>
                                         <span className="nav-link" >Produk</span>
                                     </Link>
@@ -73,7 +74,7 @@ class header2 extends Component{
             </div>
         )
     }
-    
+
 }
 
 

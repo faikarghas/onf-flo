@@ -10,13 +10,13 @@ class Register extends React.Component {
     }
     handleScroll = ()=> {
         let valueScroll = window.scrollY
-                    
+
         if(valueScroll){
             this.setState({
                 trans : valueScroll*2 / 14,
-            })  
+            })
         }
-        
+
     }
     componentWillUnmount(){
         // window.removeEventListener('scroll', this.handleScroll);
@@ -65,7 +65,7 @@ class Register extends React.Component {
             </div>
           )
     }
-  
+
 }
 
 export default Register

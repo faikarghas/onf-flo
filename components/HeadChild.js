@@ -18,14 +18,14 @@ class HeadChild extends React.Component {
         if(valueScroll){
             this.setState({
                 trans : valueScroll / 7,
-            })  
+            })
         }
-        
+
     }
-    
+
     render(){
         const {trans} = this.state
-        
+
         return (
             <div className="section_headchild">
                 <div className="container">
@@ -48,7 +48,7 @@ class HeadChild extends React.Component {
                                 <li className="appstore"><a href="https://itunes.apple.com/us/genre/ios/id36?mt=8" target="_blank"><img src={appstore}/></a></li>
                             </ul>
                         </div>
-                    </div>               
+                    </div>
                 </div>
                 <style jsx global>{`
                         @font-face {
@@ -73,7 +73,7 @@ class HeadChild extends React.Component {
             </div>
           )
     }
-  
+
 }
 
 export default HeadChild

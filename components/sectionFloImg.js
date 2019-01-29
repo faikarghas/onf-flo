@@ -15,9 +15,9 @@ handleScroll = ()=> {
     if(valueScroll){
         this.setState({
             trans : valueScroll / 7,
-        })  
+        })
     }
-    
+
 }
 
   render(){
@@ -54,7 +54,7 @@ handleScroll = ()=> {
       </div>
     )
   }
-  
+
 }
 
 export default sectionFloImg

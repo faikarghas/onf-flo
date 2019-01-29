@@ -1,4 +1,4 @@
-import "node_modules/video-react/dist/video-react.css"; 
+import "node_modules/video-react/dist/video-react.css";
 import { Player, ControlBar, BigPlayButton,ReplayControl,
   ForwardControl, CurrentTimeDisplay,
   TimeDivider, PlaybackRateMenuButton, VolumeMenuButton
@@ -15,13 +15,13 @@ class Video extends React.Component{
   }
   handleScroll = ()=> {
       let valueScroll = window.scrollY
-                  
+
       if(valueScroll){
           this.setState({
               trans : valueScroll*2 / 14,
-          })  
+          })
       }
-      
+
   }
 
   render(){
@@ -32,18 +32,18 @@ class Video extends React.Component{
               <div className="section_video--title">
                 <h1>Tak Perlu Berhenti, Tak Harus Antri</h1>
               </div>
-       
+
               <div className="section_video--det" style={{WebkitTransform:`translate(-50%,${-trans}px)`,msTransform:`translate(-50%,${-trans}px)`,transform:`translate(-50%,${-trans}px)`}}>
                 <div className="card mb-3">
                 <div className="card-header-n1">
                   <Player
                     fluid={false}
-                    width='auto'  
+                    width='auto'
                   >
                     <source src="http://media.w3.org/2010/05/bunny/trailer.mp4" />
-                    
+
                     <BigPlayButton position="center" />
-  
+
                     <ControlBar>
                       <CurrentTimeDisplay order={4.1} />
                       <TimeDivider order={4.2} />
@@ -51,7 +51,7 @@ class Video extends React.Component{
                     </ControlBar>
                   </Player>
 
-                  {/* <iframe width="100%" height="100%" 
+                  {/* <iframe width="100%" height="100%"
                     src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
                   </iframe>
                    */}

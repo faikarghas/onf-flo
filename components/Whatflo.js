@@ -33,7 +33,7 @@ const Whatflo = () => {
                             <li className="appstore"><a href="https://itunes.apple.com/us/genre/ios/id36?mt=8" target="_blank"><img src={appstore}/></a></li>
                         </ul>
                     </div>
-                    
+
                 </div>
                 <div className="col-4 section_whatflo-what">
                     <h6>APA ITU FLO?</h6>
