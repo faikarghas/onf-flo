@@ -34,7 +34,7 @@ handleScroll = ()=> {
                     tag="figure"
                 > */}
                     {/* <img src={floimage} /> */}
-                    <img src={floimage} style={{WebkitTransform:`translate(0,${trans}px)`,transform:`translate(0,${trans}px)`,msTransform:`translate(0,${trans}px)`}}/>
+                    <img src={floimage} style={{WebkitTransform:`translate(-50%,${trans}px)`,transform:`translate(-50%,${trans}px)`,msTransform:`translate(-50%,${trans}px)`}}/>
                 {/* </Parallax> */}
           </div>
           <div className="section_flo_image--img for-mobile">
@@ -47,7 +47,7 @@ handleScroll = ()=> {
                 > */}
               {/* <img src={floimage2}/> */}
 
-              <img src={floimage2} style={{WebkitTransform:`translate(0,${trans}px)`,transform:`translate(0,${trans}px)`,msTransform:`translate(0,${trans}px)`}}/>
+              <img src={floimage2} style={{WebkitTransform:`translate(-50%,${trans}px)`,transform:`translate(-50%,${trans}px)`,msTransform:`translate(-50%,${trans}px)`}}/>
             {/* </Parallax> */}
           </div>
         </div>
