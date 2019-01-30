@@ -8,7 +8,7 @@
     @include respond(phone) { // width <= 600?
         height: 61rem;
     }
-    
+
     &--det{
         display         : flex;
         justify-content : center;
@@ -33,7 +33,7 @@
         @include respond(phone) { // width <= 600?
             margin          : 2.5rem;
         }
-        
+
         .col-md-2,.col-lg2{
             img{
                 width           : 5rem;
@@ -43,12 +43,12 @@
             h6{
                 font-family : 'Nunito', sans-serif;
                 font-weight : 700;
-                font-size   : 1.2rem; 
+                font-size   : 1.2rem;
             }
             p{
                 font-family : 'Nunito', sans-serif;
                 font-weight : 600;
-                font-size   : 1rem; 
+                font-size   : 1rem;
             }
         }
         .col-3{
@@ -60,12 +60,12 @@
             h6{
                 font-family : 'Nunito', sans-serif;
                 font-weight : 700;
-                font-size   : 1.2rem; 
+                font-size   : 1.2rem;
             }
             p{
                 font-family : 'Nunito', sans-serif;
                 font-weight : 600;
-                font-size   : 1rem; 
+                font-size   : 1rem;
             }
         }
         .mon{
@@ -95,7 +95,8 @@
             height      : 18rem;
             position    : absolute;
             top         : 32rem;
-            z-index     : 2; 
+            left        : 50%;
+            z-index     : 2;
             object-fit  : contain;
             @include respond(tab-port2) { // width <= 768?
                 width   : 39rem;
@@ -103,7 +104,7 @@
                 top     : 38rem;
             }
             @include respond(phone) { // width <= 600
-                top         : -10px; 
+                top         : -10px;
                 width       : 50%;
                 height      : 16rem;
                 transform   : none !important;
@@ -113,7 +114,7 @@
                 width   : 26rem;
             }
             @include respond(phone270) { // width <= 270?
-                top         : -33px; 
+                top         : -33px;
             }
         }
     }
