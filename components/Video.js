@@ -41,7 +41,7 @@ class Video extends React.Component{
                     width='auto'
                     poster='../static/video-thumbnail.jpg'
                   >
-                    <source src="http://media.w3.org/2010/05/bunny/trailer.mp4" />
+                    <source src="../static/flo/videoflo.mp4" />
 
                     {/* <BigPlayButton position="center" /> */}
 
