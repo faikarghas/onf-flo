@@ -87,7 +87,6 @@ class Register extends React.Component{
                                                 <li><img src={bni} /></li>
                                                 <li><img src={bri} /></li>
                                                 <li><img src={bca} /></li>
-                                                <li><img src={btn} /></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -100,30 +99,18 @@ class Register extends React.Component{
                                             <img src={atm} />
                                             <h5>ATM</h5>
                                         </div>
-                                        <div className="row card-body--logo2">
-                                            <div className="row">
-                                                <div className="col-6">
-                                                    <ul>
-                                                        <li><img src={mandiri} /></li>
-                                                        <li><img src={bni} /></li>
-                                                        <li><img src={bri} /></li>
-                                                        <li><img src={bca} /></li>
-                                                        <li><img src={btn} /></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-6">
-                                                    <ul>
-                                                        <li><img src={prima} /></li>
-                                                        <li><img src={atmbersama} /></li>
-                                                        <li><img src={link} /></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                        <div className="row card-body--logo">
+                                            <ul>
+                                                <li><img src={mandiri} /></li>
+                                                <li><img src={bni} /></li>
+                                                <li><img src={bri} /></li>
+                                                <li><img src={bca} /></li>
+                                            </ul>
                                         </div>
                                     </div>
                                     </div>
                                 </div>
-                                <div className="section_topup--card-c3" >
+                                {/* <div className="section_topup--card-c3" >
                                     <div className="card">
                                     <div className="card-body">
                                         <div className="row card-body--3">
@@ -137,7 +124,7 @@ class Register extends React.Component{
                                         </div>
                                     </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="section_topup--card hidden-up" >
@@ -153,11 +140,10 @@ class Register extends React.Component{
                                         </div>
                                         <div className="row card-body--logo">
                                             <ul>
-                                                <li><img src={mandiri} /></li>
-                                                <li><img src={bni} /></li>
+                                                <li><img src={mandiri} /></li>  
                                                 <li><img src={bri} /></li>
+                                                <li><img src={bni} /></li>
                                                 <li><img src={bca} /></li>
-                                                <li><img src={btn} /></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -170,30 +156,20 @@ class Register extends React.Component{
                                             <img src={atm} />
                                             <h5>ATM</h5>
                                         </div>
-                                        <div className="row card-body--logo2">
-                                            <div className="row">
-                                                <div className="col-6">
-                                                    <ul>
-                                                        <li><img src={mandiri} /></li>
-                                                        <li><img src={bni} /></li>
-                                                        <li><img src={bri} /></li>
-                                                        <li><img src={bca} /></li>
-                                                        <li><img src={btn} /></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-6">
-                                                    <ul>
-                                                        <li><img src={prima} /></li>
-                                                        <li><img src={atmbersama} /></li>
-                                                        <li><img src={link} /></li>
-                                                    </ul>
-                                                </div>
+                                        <div className="row card-body--logo">
+                                            <div className="row card-body--logo">
+                                                <ul>
+                                                    <li><img src={mandiri} /></li>  
+                                                    <li><img src={bri} /></li>
+                                                    <li><img src={bni} /></li>
+                                                    <li><img src={bca} /></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                     </div>
                                 </div>
-                                <div className="section_topup--card-c3 section_topup--card-slider" >
+                                {/* <div className="section_topup--card-c3 section_topup--card-slider" >
                                     <div className="card">
                                     <div className="card-body">
                                         <div className="row card-body--3">
@@ -207,7 +183,7 @@ class Register extends React.Component{
                                         </div>
                                     </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 </Slider>
                         {/* </OwlCarousel> */}
                         </div>

@@ -37,23 +37,24 @@ class Register extends React.Component {
                             <div className="border-reg"></div>
                             <ul>
                                 <li>
-                                    <h4><span>1</span>Datang ke toko mitra yang ditunjuk</h4>
-                                    <p>Klik disini untuk mengetahui lokasi-lokasi pre-order stiker <br/> RFID Now Jasamarga Access</p>
+                                    <h4><span>1</span>Datang ke mitra yang ditunjuk</h4>
+                                    <p>klik disini untuk mengetahui lokasi pre-order FLO</p>
                                 </li>
                                 <li>
-                                    <h4><span>2</span>Lakukan Pre-Order dan Pilih Lokasi<br/>Pengambilan stiker RFID</h4>
-                                    <p>Setelah melakukan pembayaran di kasir user akan <br/>mendapatkan bukti transaksi dan tanggal pengambilan stiker <br/>RFID</p>
+                                    <h4><span>2</span>Lakukan Pre-order dan Pilih Lokasi Pengambilan<br/> Stiker RFID</h4>
+                                    <p>Setelah melakukan pre-order,<br/> tentukan lokasi dan tempat pemasangan stiker RFID</p>
                                 </li>
                                 <li>
-                                    <h4><span>3</span>Bawa Mobil dan Ambil Stiker RFID</h4>
-                                    <p>User datang kembali dengan membawa mobil sesuai dengan <br/> tanggal dan lokasi pengambilan stiker RFID</p>
+                                    <h4><span>3</span>Bawa Kendaraan ke Lokasi Pemasangan RFID</h4>
+                                    <p>Datang ke lokasi pemasangan stiker RFID sesuai dengan <br/> tanggal yang telah ditentukan</p>
                                 </li>
                                 <li>
                                     <h4><span>4</span>Pemasangan Stiker RFID</h4>
-                                    <p>Tim teknisi dari FLO akan membantu user dalam melakukan<br/> instalasi, sinkronisasi dan uji RFID</p>
+                                    <p>Tim teknisi FLO akan membantu proses pemasangan, sinkronisasi,<br/> dan uji stiker RFID</p>
                                 </li>
                                 <li>
-                                    <h4><span>5</span>Datang ke toko mitra yang ditunjuk</h4>
+                                    <h4><span>5</span>Aplikasi FLO-mu Siap Digunakan</h4>
+                                    <p>Segera isi ulang dan aplikasi FLO siap digunakan</p>
                                 </li>
                             </ul>
                         </div>

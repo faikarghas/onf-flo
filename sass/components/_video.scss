@@ -2,23 +2,23 @@
     width                   : 100%;
     min-height              : 67rem;
     position                : relative;
-    padding                 : 8rem; 
+    padding                 : 8rem;
     .parallax-inner {
         @include respond(phone){
             transform: none !important;
         }
     }
-    
+
     @include respond(phone) { // width <= 600?
         min-height        : 55rem;
     }
- 
+
     &--title{
-        margin-bottom   : 2rem;  
+        margin-bottom   : 2rem;
         text-align      : center;
         h1{
             font-family : 'Nunito', sans-serif;
-            font-weight : 800; 
+            font-weight : 800;
             color   : $purple-light;
         }
     }
@@ -43,8 +43,8 @@
             }
             .col-5{
                 img{
-                    width   : 4rem;
-                    height  : 4rem;
+                    width   : 100%;
+                    height  : 8rem;
                     object-fit: contain;
                 }
             }
@@ -69,7 +69,7 @@
         box-shadow          : 7px 9px 30px -10px rgba(0,0,0,0.75);
         width               : 70rem;
         .card-header-n1{
-            
+
             .video-react{
                 height        : 30rem !important;
 
@@ -77,17 +77,21 @@
                     height        : 20rem !important;
                 }
             }
-            
+
         }
     }
 }
 
 
-.video-react .video-react-big-play-button {
-    // background-color: transparent !important;
-    // display: none !important;
-}
-
 .video-react .video-react-video {
     object-fit: fill;
+}
+
+
+.video-react .video-react-big-play-button {
+    display: none !important;
+}
+
+.video-react .video-react-poster {
+    background-size: cover !important;
 }

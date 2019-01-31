@@ -4,7 +4,7 @@ import { Player, ControlBar, BigPlayButton,ReplayControl,
   TimeDivider, PlaybackRateMenuButton, VolumeMenuButton
 } from 'video-react';
 
-import flologo from '../static/flo/flologo2.png'
+import flologo from '../static/flo/flologopurple.png'
 
 class Video extends React.Component{
   state = {
@@ -39,10 +39,11 @@ class Video extends React.Component{
                   <Player
                     fluid={false}
                     width='auto'
+                    poster='../static/video-thumbnail.jpg'
                   >
                     <source src="http://media.w3.org/2010/05/bunny/trailer.mp4" />
 
-                    <BigPlayButton position="center" />
+                    {/* <BigPlayButton position="center" /> */}
 
                     <ControlBar>
                       <CurrentTimeDisplay order={4.1} />

@@ -38,25 +38,26 @@ class About extends React.Component {
                         <img src={floSmallLogo}/>
                     </div>
                     <div className="section_about--desc">
-                        <h4>FLO adalah solusi pembayaran jalan tol berbasis teknologi stiker RFID <br/>
-                        yang terkoneksi dengan aplikasi FLO di smartphone Anda.
+                        <h4>
+                            FLO adalah solusi pembayaran tol berbasis teknologi RFID<br/>
+                            yang terkoneksi dengan aplikasi FLO di smartphone Anda.
                         </h4>
                     </div>
                     <div className="section_about--why">
                         <div className="col-3 col-md-2 col-lg-2">
                             <img src={touchHand} />
                             <h6 className="text-bold">Mudah digunakan</h6>
-                            <p className="text-white">Hanya perlu melakukan sinkronasi stiker RFID dengan aplikasi di smartphone</p>
+                            <p className="text-white">Hanya perlu download dan sinkronisasi stiker RFID pada aplikasi FLO.</p>
                         </div>
                         <div className="col-3 col-md-2 col-lg-2 borderThis">
                             <img src={cross} />
                             <h6 className="text-bold">Tanpa Perlu Berhenti</h6>
-                            <p className="text-white">Hanya perlu melakukan sinkronasi stiker RFID dengan aplikasi di smartphone</p>
+                            <p className="text-white">Tidak perlu tapping/berhenti pada saat hendak membayar Tol.</p>
                         </div>
                         <div className="col-3 col-md-2 col-lg-2 mon">
                             <img src={money} />
-                            <h6 className="text-bold">Top Up Darimana Saja</h6>
-                            <p className="text-white">Hanya perlu melakukan sinkronasi stiker RFID dengan aplikasi di smartphone</p>
+                            <h6 className="text-bold">Top-up Darimana Saja</h6>
+                            <p className="text-white">Mudah untuk melakukan isi ulang dari beragam channel.</p>
                         </div>
                     </div>
                     <div className="section_about--rfid">

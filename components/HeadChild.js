@@ -38,7 +38,7 @@ class HeadChild extends React.Component {
                                 <img src={flopur} />
                             </div>
                             <h1>SOLUSI PEMBAYARAN</h1>
-                            <h1>JALAN TOL</h1>
+                            <h1>TOL</h1>
                             <h1>TANPA BERHENTI</h1>
                             <div className="download">
                                 <h3>DOWNLOAD SEKARANG</h3>

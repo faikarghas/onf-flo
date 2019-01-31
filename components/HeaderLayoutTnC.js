@@ -3,7 +3,7 @@ import '../sass/main.scss';
 import NavigationTnC from '../components/NavigationTnC'
 
 const image = {
-  backgroundImage: "url('/static/headerImg.jpg')"
+  backgroundImage: "url('/static/headerImgTnc.jpg')"
 }
 
 const TnC = (props) => {
