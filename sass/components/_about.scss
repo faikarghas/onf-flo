@@ -104,10 +104,10 @@
                 top     : 38rem;
             }
             @include respond(phone) { // width <= 600
-                // top         : -10px;
+                top         : -5px;
                 width       : 50%;
                 height      : 16rem;
-                // transform   : translate(-50%,-10%) !important;
+                transform   : translate(-50%,-5%) !important;
                 object-fit  : contain;
             }
             @include respond(phone320) { // width <= 320
