@@ -141,6 +141,14 @@
                                 object-fit: cover;
                                 width: 163px;
                                 padding-left: 33px;
+                                @include respond(big-desktop){
+                                    width: 197px;
+                                    padding-left: 37px;
+                                }
+                                @include respond(phone){
+                                    width: 75px;
+                                    padding-left: 1rem;
+                                }
                             }
                         }
                     }

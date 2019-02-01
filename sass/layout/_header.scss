@@ -1,12 +1,12 @@
-.box-header{  
+.box-header{
     background-size         : cover;
     background-repeat       : no-repeat;
     background-image        : url('/static/headerImg.jpg');
-    height                  : 100vh;    
+    height                  : 100vh;
     width                   : 100%;
     padding                 : 2rem 3rem;
     z-index                 : 3;
-    position                : relative; 
+    position                : relative;
     overflow                : hidden;
 
     -webkit-box-shadow: 0px 8px 17px -5px rgba(0,0,0,0.77);
@@ -14,7 +14,7 @@
     box-shadow: 0px 8px 17px -5px rgba(0,0,0,0.77);
 
     @include respond(tab-land2) { // width <= 1240
-        height       : 100vh;    
+        height       : 100vh;
     }
     @include respond(phone) { // width <= 600
         min-height: 100%;
@@ -26,22 +26,22 @@
             height: 95rem;
         }
         @include respond(phone375) { // width <= 375
-            height: 85rem;    
+            height: 85rem;
         }
         @include respond(phone320) { // width <= 632000
-            height: 70rem;    
+            height: 70rem;
         }
     }
-    
+
 }
-  
+
 
 .section_headchild{
         font-family : 'Nunito', sans-serif;
         height: 100%;
         display: flex;
         align-items: center;
-   
+
 
     @include respond(tab-port2) { // width <= 768?
         width   : 100%;
@@ -75,7 +75,7 @@
     &--1{
         display: flex;
         justify-content: flex-end;
-       
+
         @include respond(phone){
             justify-content: center;
         }
@@ -117,11 +117,11 @@
                 }
             }
         }
-        
+
         h1{
             color       : white;
             font-size   : 3.5rem;
-            font-weight : 700; 
+            font-weight : 700;
         }
         @include respond(phone){
             h1{
@@ -137,17 +137,17 @@
 
             @include respond(phone375) { // width <= 600
                 margin-top      : 2rem;
-            } 
+            }
             h3{
                 color       : white;
-                font-weight : 700; 
+                font-weight : 700;
             }
         }
         ul{
             li{
                 display     : inline-block;
                 list-style  : none;
-                
+
             }
             .googleplay{
                 img{

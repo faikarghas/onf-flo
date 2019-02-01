@@ -9,6 +9,13 @@
         height: 61rem;
     }
 
+    .container {
+        @include respond(big-desktop){
+            max-width: 1236px;
+        }
+    }
+    
+
     &--det{
         display         : flex;
         justify-content : center;

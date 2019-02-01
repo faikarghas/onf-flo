@@ -140,7 +140,7 @@ class Register extends React.Component{
                                         </div>
                                         <div className="row card-body--logo">
                                             <ul>
-                                                <li className="man"><img src={mandiri} /></li>
+                                                <li className="man"><img className="man_img" src={mandiri} /></li>
                                                 <li><img src={bri} /></li>
                                                 <li><img src={bni} /></li>
                                                 <li><img src={bca} /></li>
@@ -159,7 +159,7 @@ class Register extends React.Component{
                                         <div className="row card-body--logo">
                                             <div className="row card-body--logo">
                                                 <ul>
-                                                    <li className="man"><img src={mandiri} /></li>
+                                                    <li className="man"><img className="man_img" src={mandiri} /></li>
                                                     <li><img src={bri} /></li>
                                                     <li><img src={bni} /></li>
                                                     <li><img src={bca} /></li>

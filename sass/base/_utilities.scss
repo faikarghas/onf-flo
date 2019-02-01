@@ -1,7 +1,7 @@
-// scrollbar 
+// scrollbar
 
-// ::-webkit-scrollbar-button{ display: block; height: 13px; border-radius: 0px; background-color: rgb(236, 236, 236); } 
-// ::-webkit-scrollbar-button:hover{ background-color: #AAA; } ::-webkit-scrollbar-thumb{ background-color: #0e0e0e; display: block;} ::-webkit-scrollbar-thumb:hover{ background-color: #CCC; } ::-webkit-scrollbar-track{ background-color: #efefef; } ::-webkit-scrollbar-track:hover{ background-color: #CCC; } 
+// ::-webkit-scrollbar-button{ display: block; height: 13px; border-radius: 0px; background-color: rgb(236, 236, 236); }
+// ::-webkit-scrollbar-button:hover{ background-color: #AAA; } ::-webkit-scrollbar-thumb{ background-color: #0e0e0e; display: block;} ::-webkit-scrollbar-thumb:hover{ background-color: #CCC; } ::-webkit-scrollbar-track{ background-color: #efefef; } ::-webkit-scrollbar-track:hover{ background-color: #CCC; }
 // ::-webkit-scrollbar{ width: 2px; }
 
 // coming soon
@@ -11,7 +11,7 @@
     .coming-soon{
         font-size: 10rem;
         // color: rgba(42, 42, 42, 0.828);
-        
+
         @include respond(phone) { // width <= 600
             font-size: 8rem;
         }
@@ -51,7 +51,7 @@
         border-radius: 10rem;
         transition: all .2s;
         position: relative;
-        font-size:1rem;  
+        font-size:1rem;
 
         // change for the button element
         border: none;
@@ -79,7 +79,7 @@
     &--white {
         background-color: $color-white;
         color: #777;
-        
+
         &::after{
             background-color: $color-white;
         }
@@ -88,8 +88,8 @@
     &--green {
         background-color: rgb(45, 54, 59);
         color: $color-white;
-        
-        
+
+
     }
 
     &::after {
@@ -111,7 +111,7 @@
     }
 
     @include respond(phone) { // width <= 600
-        width   : 100%;  
+        width   : 100%;
     }
 
 }
