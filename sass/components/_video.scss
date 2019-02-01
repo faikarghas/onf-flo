@@ -1,6 +1,6 @@
 .section_video{
     width                   : 100%;
-    min-height              : 67rem;
+    min-height              : 77rem;
     position                : relative;
     padding                 : 8rem;
     .parallax-inner {
@@ -71,7 +71,7 @@
         .card-header-n1{
 
             .video-react{
-                height        : 30rem !important;
+                height        : 38rem !important;
 
                 @include respond(phone) { // width <= 600?
                     height        : 20rem !important;

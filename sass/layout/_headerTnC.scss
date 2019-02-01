@@ -1,11 +1,12 @@
 .box-header-tnc{
-    background-size         : cover;
+    background-size         : contain;
     background-repeat       : no-repeat;
     width                   : 100%;
     padding                 : 2rem 3rem;
     z-index                 : 3;
     position                : relative;
     overflow                : hidden;
+    background-color        : #0C0109;
 
     .childern{
         height: 37rem;
@@ -40,8 +41,43 @@
         padding: 5rem 5rem 5rem 15rem;
         font-size: 1.6rem;
         color: white;
+        @include respond(phone) { // width <= 600
+            padding: 0;
+        }
         li:before{
             padding-left: 15px;
+        }
+        ol{
+            .no2 {
+                margin-bottom: 1rem;
+                ol{
+                    padding-left: 15px;
+                }
+            }
+            .no3{
+                margin-bottom: 1rem;
+                ul{
+                    padding-left: 15px;
+                }
+            }
+            .no4{
+                margin-bottom: 1rem;
+                ol{
+                    padding-left: 15px;
+                    ul{
+                        padding-left: 15px;
+                    }
+                }
+            }
+            .no5{
+                ol{
+                    li{
+                        ul{
+                            padding-left: 15px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

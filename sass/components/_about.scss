@@ -94,7 +94,7 @@
             width       : 70rem;
             height      : 18rem;
             position    : absolute;
-            top         : 32rem;
+            top         : 31rem;
             left        : 50%;
             z-index     : 2;
             object-fit  : contain;
@@ -104,10 +104,10 @@
                 top     : 38rem;
             }
             @include respond(phone) { // width <= 600
-                top         : -10px;
+                // top         : -10px;
                 width       : 50%;
                 height      : 16rem;
-                transform   : none !important;
+                // transform   : translate(-50%,-10%) !important;
                 object-fit  : contain;
             }
             @include respond(phone320) { // width <= 320
