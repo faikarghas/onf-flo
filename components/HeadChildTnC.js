@@ -148,7 +148,7 @@ const HeadChildTnC = () => {
                   </ul>
                   <br/>
                   <p>Ketentuan ganti rugi ini akan tetap berlaku terlepas dari penutupan akun FLO Anda.</p>
-                  <ol>
+                  <ol className="thisOl">
                     <li>Permasalahan dan Keluhan
                       <p>Kami melakukan usaha terbaik untuk menjaga keamanan sistem, termasuk sistem pencatatan transaksi Anda secara elektronik di server Kami. Data dan saldo dan/atau sejarah transaksi yang dicatat di sistem Kami merupakan data dan saldo dan/atau sejarah transaksi yang final dan mengikat Kami dan Anda.</p>
                       <ol>
@@ -166,50 +166,50 @@ const HeadChildTnC = () => {
                   </ol>
               </li>
 
-              <li className="no3">Koreksi
+              <li type="a" className="no3">Koreksi
                 <ul>
                   <li type="a">Dalam hal menurut catatan Kami terjadi kesalahan dalam transaksi, maka Kami dapat melakukan koreksi terhadap saldo FLO Anda. Kami tidak akan melakukan koreksi terhadap saldo FLO Anda tanpa bukti atau dasar yang kuat adanya kesalahan dalam transaksi. Anda dapat menyampaikan permintaan koreksi kepada Kami melalui jalur yang Kami sediakan. Kami akan melakukan tinjauan dan memutuskan kasus per kasus.</li>
                   <li type="a">Sehubungan dengan kepentingan koreksi sebagaimana disebutkan di atas, Anda dengan ini memberikan kuasa yang tidak dapat ditarik kembali kepada Kami untuk mendebet dan/atau mengkredit saldo FLO Anda. Kuasa sebagaimana dimaksud akan terus berlaku dan tidak dapat berakhir karena alasan apapun juga termasuk karena alasan-alasan sebagaimana diatur dalam Pasal 1813, 1814, dan 1816 Kitab Undang-Undang Hukum Perdata, kecuali Anda menutup akun Anda.</li>
                 </ul>
               </li>
 
-              <li>Keadaan Kahar
+              <li type="a">Keadaan Kahar
                 <p>Layanan Kami dapat diinterupsi oleh kejadian atau hal tertentu di luar kewenangan dan kontrol Kami (Keadaan Kahar), termasuk namun tidak terbatas pada bencana alam, gangguan listrik, gangguan telekomunikasi, kebijakan pemerintah, dan hal-hal lainnya yang di luar kewenangan dan kontrol Kami. Anda oleh karenanya setuju untuk melepaskan Kami dari setiap klaim,jika Kami tidak dapat memenuhi instruksi Anda melalui akun FLO baik sebagian maupun seluruhnya karena Keadaan Kahar.</p>
               </li>
 
-              <li>Hak Kekayaan Intelektual
+              <li type="a">Hak Kekayaan Intelektual
                 <p>FLO, termasuk nama dan logonya, kode, desain, teknologi, model bisnis, dilindungi oleh hak cipta, merek dan hak kekayaan intelektual lainnya yang tersedia berdasarkan hukum Republik Indonesia. Kami (dan pihak yang memperoleh lisensi dari Kami, jika berlaku) memiliki seluruh hak dan kepentingan atas FLO, termasuk seluruh hak kekayaan intelektual yang berhubungan dengannya. Syarat dan Ketentuan ini tidak dan dengan cara apapun tidak akan dianggap sebagai pemberian izin kepada Anda untuk menggunakan setiap hak kekayaan intelektual Kami sebagaimana disebutkan di atas.</p>
               </li>
 
-              <li>Tidak ada Pengesampingan
+              <li type="a">Tidak ada Pengesampingan
                 <p>Pengesampingan Kami atau ditundanya atau kegagalan Kami untuk melakukan klaim atas pelanggaran ketentuan manapun dalam Syarat dan Ketentuan ini atau untuk melaksanakan setiap hak yang disediakan dalam Syarat dan Ketentuan ini tidak akan dianggap sebagai pengesampingan sehubungan dengan pelanggaran substansial atas setiap ketentuan dalam Syarat dan Ketentuan ini.</p>
               </li>
 
-              <li>Bahasa
+              <li type="a">Bahasa
                 <p>Syarat dan Ketentuan ini dibuat dalam Bahasa Inggris dan Bahasa Indonesia. Dalam hal terjadi inkonsistensi antara versi Bahasa Inggris dan versi Bahasa Indonesia, versi Bahasa Indonesia yang berlaku.</p>
               </li>
 
-              <li>Pengalihan
+              <li type="a">Pengalihan
                 <p>Anda menjamin bahwa penggunaan akun FLO hanya digunakan oleh Anda dan untuk kepentingan Anda sendiri sebagai pemegang akun sesuai dengan Syarat dan Ketentuan ini. Anda tidak boleh mengalihkan hak Anda berdasarkan Syarat dan Ketentuan ini tanpa persetujuan tertulis terlebih dahulu dari Kami. Jika ada pihak lain yang menggunakan akun Anda dan/atau jika ada pihak lain yang bertindak sebagai penerima manfaat (Beneficial Owner) Akun Anda selain Anda, maka Anda wajib melaporkan kepada Kami melalui cs@FLO.co.id. Jika tidak ada pelaporan dari Anda mengenai pihak lain sebagai penerima manfaat atau Beneficial Owner maka Anda memberikan jaminan bahwa Anda adalah satu - satunya penerima manfaat atau Beneficial Owner dari Akun Anda.
                 <br/>
                 Meskipun saldo FLO Anda dapat ditransfer kepada pihak lain, akun FLO Anda tidak dapat dialihkan kepada pihak lain. Kami dapat mengalihkan hak Kami berdasarkan Syarat dan Ketentuan ini kepada pihak ketiga lain manapun berdasarkan kewenangan Kami sepenuhnya.
                 </p>
               </li>
 
-              <li>Keterpisahan
+              <li type="a">Keterpisahan
                 <p>Jika setiap ketentuan dalam Syarat dan Ketentuan ini ditentukan sebagai ilegal, tidak sah atau tidak dapat dilaksanakan, seluruh ataupun sebagian, berdasarkan peraturan atau prinsip hukum manapun, ketentuan atau sebagian daripadanya, sejauh hal tersebut ilegal, tidak sah atau tidak dapat dilaksanakan, akan dianggap bukan merupakan bagian dari Syarat dan Ketentuan ini tetapi legalitas, validitas atau pelaksanaan dari ketentuan lainnya dari Syarat dan Ketentuan ini tidak akan berpengaruh.
                 </p>
               </li>
 
-              <li>Hukum yang Mengatur
+              <li type="a">Hukum yang Mengatur
                 <p>Syarat dan Ketentuan ini diatur berdasarkan hukum Republik Indonesia. Setiap dan seluruh perselisihan yang timbul dari penggunaan layanan Kami akan tunduk pada yurisdiksi eksklusif di Pengadilan Negeri Jakarta Selatan.</p>
               </li>
 
-              <li>Perubahan
+              <li type="a">Perubahan
                 <p>Syarat dan Ketentuan ini, sebagian atau seluruhnya, termasuk setiap fitur atau layanan yang ditawarkan dalam akun FLO, dapat dimodifikasi, ditambahkan, atau diubah dari waktu ke waktu berdasarkan kebijakan Kami sendiri dengan atau tanpa pemberitahuan kepada Anda. Penggunaan Anda secara berkelanjutan atas FLO setelah modifikasi, variasi dan/atau perubahan atas Syarat dan Ketentuan merupakan persetujuan dan penerimaan Anda atas modifikasi, variasi dan/atau perubahan tersebut. Jika Anda ingin menolak modifikasi, variasi dan/atau perubahan tersebut, maka Anda harus berhenti akses atau menggunakan FLO dan/atau layanan kami serta mengakhiri Syarat & Ketentuan Penggunaan ini.</p>
               </li>
 
-              <li>Kebijakan Privasi
+              <li type="a">Kebijakan Privasi
                 <p>Data personal Anda dijaga berdasarkan Kebijakan Privasi Kami. Kebijakan Privasi dianggap sebagai bagian yang tidak terpisahkan dari Syarat dan Ketentuan ini dan persetujuan Anda atas Syarat dan Ketentuan ini merupakan penerimaan Anda atas Kebijakan Privasi.
                 <br/>
                 Penggunaan Anda atas akun FLO dan/atau layanan FLO menandakan persetujuan Anda untuk tunduk pada (i) Syarat dan Ketentuan ini; (ii) syarat dan ketentuan umum penggunaan Aplikasi FLO; (iii) syarat dan ketentuan khusus yang berlaku untuk masing-masing fitur layanan yang tersedia dalam aplikasi FLO; (iv) kebijakan privasi; dan (v) setiap hukum dan peraturan perundang-undangan yang berlaku.</p>
@@ -218,6 +218,35 @@ const HeadChildTnC = () => {
             </ol>
           </div>
         </div>
+        <style jsx global>{`
+                        @font-face {
+                        font-family: "Gotham-Medium";
+                        src:
+                            url('../static/fonts/Gotham-Medium.woff') format('woff'),
+                            url('../static/fonts/Gotham-Medium.otf') format('otf'),
+                            url('../static/fonts/Gotham-Medium.ttf') format('ttf')
+                        }
+                        @font-face {
+                        font-family: "Gotham-Rounded-book";
+                        src:
+                            url('../static/fonts/GothamRounded-Book.woff') format('woff'),
+                            url('../static/fonts/GothamRounded-Book.otf') format('otf'),
+                            url('../static/fonts/gothamroundedbook.ttf') format('ttf')
+                        }
+                        h1{
+                            font-family: Gotham-Rounded-book;
+                        }
+                        p{
+                          font-family: Gotham-Rounded-book;
+                        }
+                        li{
+                          font-family: Gotham-Rounded-book;
+                        }
+                        ol{
+                          font-family: Gotham-Rounded-book;
+                        }
+                    `}
+        </style>
     </div>
   )
 }
