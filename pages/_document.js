@@ -9,6 +9,9 @@ export default class MyDocument extends Document {
                     <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
                     
                     <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
+
+                    <meta property="og:title" content="FB post title" />
+
                     <link rel="icon" type="image/x-icon" href="/static/flo/flologopurple.png" />
 
                     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossOrigin="anonymous"></link>

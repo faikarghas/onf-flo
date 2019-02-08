@@ -110,21 +110,7 @@ class Register extends React.Component{
                                     </div>
                                     </div>
                                 </div>
-                                {/* <div className="section_topup--card-c3" >
-                                    <div className="card">
-                                    <div className="card-body">
-                                        <div className="row card-body--3">
-                                            <img src={market} />
-                                            <h5>MINI <br/>MARKET</h5>
-                                        </div>
-                                        <div className="row card-body--logo3">
-                                            <ul>
-                                                <li><img src={minimarket} /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div> */}
+
                             </div>
                         </div>
                         <div className="section_topup--card hidden-up" >
@@ -169,22 +155,8 @@ class Register extends React.Component{
                                     </div>
                                     </div>
                                 </div>
-                                {/* <div className="section_topup--card-c3 section_topup--card-slider" >
-                                    <div className="card">
-                                    <div className="card-body">
-                                        <div className="row card-body--3">
-                                            <img src={market} />
-                                            <h5>MINI <br/>MARKET</h5>
-                                        </div>
-                                        <div className="row card-body--logo3">
-                                            <ul>
-                                                <li><img src={minimarket} /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div> */}
-                                </Slider>
+
+                        </Slider>
                         {/* </OwlCarousel> */}
                         </div>
                     </div>
