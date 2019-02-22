@@ -39,7 +39,7 @@
 
         .card{
             width           : 23rem;
-            height          : 39rem ;
+            height          : 36rem ;
             border-radius   : 15px;
             margin          : .5rem;
             -webkit-box-shadow: 15px 15px 34px -16px rgba(0,0,0,0.75);
@@ -73,6 +73,7 @@
                 }
 
                 &--logo{
+                    padding-top: 2rem;
                     ul{
                         li{
                             list-style: none;
@@ -90,7 +91,6 @@
                                 object-fit: cover;
                                 width: 163px;
                                 padding-left: 33px;
-                                padding-bottom: 0;
                                 @include respond(big-desktop){
                                     width: 197px;
                                     padding-left: 37px;
