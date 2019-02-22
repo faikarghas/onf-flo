@@ -10,7 +10,7 @@
     padding-left        : 25rem;
     padding-right       : 25rem;
     font-size           : 1.2rem; 
-    @include respond(tab-land) { // width <= 1240?
+    @include respond(tab-land12) { // width <= 1240?
         padding-left        : 20rem;
         padding-right       : 20rem;
     }
