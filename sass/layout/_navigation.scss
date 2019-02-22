@@ -1,34 +1,3 @@
-// .navigation{
-//     &__list{
-//         & a{
-//             font-family     : $navbar-font2;
-//             font-size       : 1.5rem;
-//             font-weight     : 700;
-//             padding         : 0!important;
-//             margin-top      : 1.5rem;
-//             margin-right    : 7rem;
-//             margin-left     : 7rem;
-//             color           : white;
-//             span{
-//                 color           : white;
-//                 cursor: pointer;
-//             }
-//             &:hover{
-//                 color       : rgb(49, 49, 49);
-//             }
-
-//             @include respond(phone) { // width <= 600
-//                 margin-left: 1rem !important;
-//             }
-//         }
-
-//         &-home{
-//             font-size   : 3rem !important;
-//         }
-//     }
-
-// }
-
 .section-navbar{
     padding: .5rem 12rem !important;
 

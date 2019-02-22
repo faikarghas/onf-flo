@@ -9,10 +9,10 @@ import '../sass/main.scss';
 
 
 class header2 extends Component{
-    
+
     render(){
         return(
-            <div className="container"> 
+            <div className="container">
                 <nav className="navbar navbar-expand-lg section-navbar">
                     <div className="container">
                         <a className="navbar-brand" href="/">
@@ -69,7 +69,7 @@ class header2 extends Component{
             </div>
         )
     }
-    
+
 }
 
 

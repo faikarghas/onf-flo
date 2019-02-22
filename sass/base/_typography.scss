@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Gotham-Medium";
+    src:
+        url('/static/fonts/Gotham-Medium.woff') format('woff'),
+        url('/static/fonts/Gotham-Medium.otf') format('otf'),
+        url('/static/fonts/Gotham-Medium.ttf') format('ttf');
+}
+@font-face {
+    font-family: "Gotham-Rounded-book";
+    src:
+        url('/static/fonts/GothamRounded-Book.woff') format('woff'),
+        url('/static/fonts/GothamRounded-Book.otf') format('otf'),
+        url('/static/fonts/gothamroundedbook.ttf') format('ttf');
+}
+
 .title-h1{
     font-family: $navbar-font2;
     color: black;

@@ -67,6 +67,7 @@ class About extends React.Component {
                         <img src={carlogo} />
                     </div>
                 </div>
+
             </div>
           )
     }

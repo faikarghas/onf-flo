@@ -1,15 +1,9 @@
 import mobile from '../static/mobile.png'
 import atm from '../static/atm.png'
-import market from '../static/market.png'
 import mandiri from '../static/logo_mandiri.png'
 import bri from '../static/bri.png'
 import bni from '../static/bni.png'
 import bca from '../static/bca.png'
-import btn from '../static/btn.png'
-import minimarket from '../static/minimarket.png'
-import link from '../static/link.png'
-import atmbersama from '../static/atmbersama.png'
-import prima from '../static/prima.png'
 
 
 import OwlCarousel from 'react-owl-carousel2';
@@ -86,7 +80,7 @@ class Register extends React.Component{
                                                 <li className="man"><img src={mandiri} /></li>
                                                 <li><img src={bri} /></li>
                                                 <li><img src={bni} /></li>
-                                                <li><img src={bca} /></li>
+                                                {/* <li><img src={bca} /></li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -104,7 +98,7 @@ class Register extends React.Component{
                                                 <li className="man"><img src={mandiri} /></li>
                                                 <li><img src={bri} /></li>
                                                 <li><img src={bni} /></li>
-                                                <li><img src={bca} /></li>
+                                                {/* <li><img src={bca} /></li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -129,7 +123,7 @@ class Register extends React.Component{
                                                 <li className="man"><img className="man_img" src={mandiri} /></li>
                                                 <li><img src={bri} /></li>
                                                 <li><img src={bni} /></li>
-                                                <li><img src={bca} /></li>
+                                                {/* <li><img src={bca} /></li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -148,7 +142,7 @@ class Register extends React.Component{
                                                     <li className="man"><img className="man_img" src={mandiri} /></li>
                                                     <li><img src={bri} /></li>
                                                     <li><img src={bni} /></li>
-                                                    <li><img src={bca} /></li>
+                                                    {/* <li><img src={bca} /></li> */}
                                                 </ul>
                                             </div>
                                         </div>
