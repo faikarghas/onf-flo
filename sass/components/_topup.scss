@@ -90,6 +90,7 @@
                                 object-fit: cover;
                                 width: 163px;
                                 padding-left: 33px;
+                                padding-bottom: 0;
                                 @include respond(big-desktop){
                                     width: 197px;
                                     padding-left: 37px;
